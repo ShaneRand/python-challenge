@@ -85,6 +85,9 @@ with open(output_path, "w") as txtfile:
     txtfile.write("--------------------\n")
     txtfile.write(f"Total Votes: {total_vote_count}\n")
     txtfile.write("--------------------\n")
-
-
+    for (name, percentage, count) in zip(unique_candidate_list, percentage_list, count_list):
+        txtfile.write(f"{name}: {percentage}% ({count})\n")
+    txtfile.write("--------------------\n")
+    txtfile.write(f"Winner: {winner}\n")
+    txtfile.write("--------------------\n")
 print(f"\nResults have been written to {output_path}")

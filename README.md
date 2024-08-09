@@ -1,4 +1,9 @@
 # python-challenge
+**Instructions are below. But first, a brief analysis of my findings:
+    PyBank: out of 86 months of PnL, total net PnL was +$22.6 million
+    PyPoll: Diana DeGette won the election by a wide margin, taking home nearly 74% of the votes.
+
+
 **Before You Begin**
 Before starting the assignment, be sure to complete the following steps:
 
